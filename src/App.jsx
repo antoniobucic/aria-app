@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 
 // 🔑 WICHTIG: Ersetze diesen Wert mit deinem echten Anthropic API Key
 // Hole dir einen Key auf: https://console.anthropic.com
-const API_KEY = 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;
+const API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY;
 
 const SYSTEM_PROMPT = `Du bist ARIA – ein intelligenter Terminassistent. Du hilfst dem Nutzer dabei, Termine zu verwalten, zu kategorisieren und nach Wichtigkeit einzustufen.
 
